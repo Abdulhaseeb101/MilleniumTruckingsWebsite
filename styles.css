@@ -1,0 +1,342 @@
+/*Global Properties*/
+
+/** Menu Bar Properties **/
+
+body{
+    background-color: rgb(66,66,66);
+}
+
+.header{
+    background-color: black;
+    padding-bottom: 30px;
+    border-bottom-color: coral;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header h1{
+    margin: 0;
+    padding-top: 35px;
+    padding-left: 10px;
+    color: azure;
+}
+
+#diff_color{
+    background-color: black;
+    color: coral;
+    border-radius: 95px;
+    padding-top: 8px;
+    position: relative;
+    padding: 25px;
+    margin-left: 0px;
+    z-index: 1;
+}
+
+#diff_bg{
+    color: black;
+    background-color: coral;
+    border-radius: 95px;
+    padding-top: 8px;
+    position: relative;
+    padding: 25px;
+    padding-left: 30px;
+    margin-left: -40px;
+    z-index: 0;
+}
+
+.header nav{
+    float: right;
+    margin-top: -45px;
+}
+
+.header nav ul li{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 7px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.header nav ul a{
+    text-decoration: none;
+}
+
+.header nav ul li a{
+    color: azure;
+}
+
+.header a:hover{
+    color:lightgray;
+    font-weight: bold;
+}
+
+header .current{
+    color: coral;
+}
+
+/**EOF Menu Bar Properties**/
+
+/**Footer Styles**/
+
+footer{
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    padding: 50px ;
+    float: none;
+    margin-top: 20px;
+}
+
+footer li{
+    display: inline
+}
+
+footer ul{
+    float: right;
+    margin-top: -20px;
+    
+}
+
+footer p{
+    text-align: left;
+    margin-top: 0px;
+}
+
+/**EOF Footer Styles**/
+
+/*EOF Global Properties*/
+
+
+/*Page Specific Properties*/
+
+/**Home Properites**/
+
+body #display{
+    margin-top: 0px;
+    background: url(images/coding-1841550_1920.jpg);
+    background-repeat: no-repeat;
+    height: 565px;
+    width: 100%;
+    background-position: top-left;
+    text-align: center;
+    margin-top: ;
+}
+
+#display h2{
+    padding-top: 240px;
+    margin-top: 0px;
+}
+
+#display {
+    color: lightgoldenrodyellow;
+}
+
+.form{
+    background-color: black;
+    color: azure;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form h4{
+    margin-top: 15;
+}
+
+.form button{
+    background-color: coral;
+    border: 0;
+    padding: 8px;
+    color: azure;
+}
+
+.form button:hover{
+    background-color: rgb(239,83,80);
+}
+
+.form input[type="email"]{
+    padding: 6px;
+    border-color: coral;
+    border-width: 2px;
+}
+
+#container-1{
+    padding-left: 100px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+}
+
+section .boxes img{
+    width: 90%;
+}
+
+#adjheight{
+    height: 235px; /*Adjusting the height to match the rest of the imgs*/
+}
+
+section .boxes{
+    display: inline;
+    float: left;
+    max-width: 30%;
+}
+
+#container-2{
+    padding-top: 350px;
+    padding-left: 50px;
+    max-width: 70%;
+    margin-bottom: 0px;
+    color: lightgoldenrodyellow;
+}
+
+/**EOF Home Properties**/
+
+/**About Us Properties**/
+
+#displayAbtUs{
+    margin-top: 0px;
+    background: url(images/truck-2920533_1920.jpg);
+    background-repeat: no-repeat;
+    height: 565px;
+    width: 100%;
+    background-position: top-left;
+    text-align: center;
+    color: lightgoldenrodyellow
+}
+
+#displayAbtUs h1{
+    margin-top: 0;
+    padding-top: 140px;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+#displayAbtUs p{
+    font-size: 18px;
+    max-width: 30%;
+    padding-left: 450px;
+}
+
+#story{
+    padding-top: 50px;
+    background-color: coral;
+    font-weight: lighter;
+    padding-bottom: 500px;
+}
+
+#story h1{
+    font-weight: lighter;
+    float: left;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+#story p{
+    max-width: 60%;
+    float:right;
+    font-size: 16px;
+}
+
+#pic{
+    width: 100%;
+    height: 470px;
+    margin-bottom: 0;
+    border-bottom-color: coral;
+    border-bottom-width: thick;
+}
+
+#displayAbtUs2{
+    color: rgb(255,171,145);
+}
+
+#diffbg{
+    margin-top: 0;
+    background-color: rgb(244,67,54);
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+}
+
+#diffbg h1{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+div #onemil{
+    padding-left: 90px
+}
+
+div #served{
+    padding-left: 90px;
+}
+
+div #something{
+    padding-left: 90px;
+}
+
+div #rating{
+    padding-left: 90px;
+}
+
+#values{
+    background-color: coral;
+    padding-top: 20px;
+    color: aliceblue;
+    margin-top: 0;
+    padding-bottom: 20px;
+    
+}
+
+#valueshead h1{
+    font-weight: lighter;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+#container1 h3{
+    font-weight: lighter;
+}
+
+#values p{
+    max-width: 60%;
+    font-size: 16px;
+}
+
+#container1 {
+    margin-top: 20;
+    padding-top: 0px;
+    padding-left: 600px;
+    padding-right: 0px;
+    min-width: 40%;
+    /**background-color: blue**/
+}
+
+#container1 .value{
+    /**background-color: aqua;**/
+}
+
+.tryit{
+    text-align: center;
+    color: lightgoldenrodyellow
+}
+
+.tryit button{
+    background-color: coral;
+    border: 0;
+    padding: 8px;
+    color: azure;
+}
+ 
+.tryit button:hover{
+    background-color: rgb(239,83,80);
+}
+
+/**EOF About Us Properties**/
+
+/*EOF Page Specific Properties*/
